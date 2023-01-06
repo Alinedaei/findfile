@@ -1,0 +1,7 @@
+mysql -u root -p
+CREATE DATABASE iplist;
+USE iplist;
+
+CREATE TABLE iplist ( id INT AUTO_INCREMENT primary key NOT NULL, IPLIST varchar(255), STATUS varchar(255), DATE varchar(255) );
+SELECT * FROM iplist;
+\q
